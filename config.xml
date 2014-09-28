@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.phonegap.appasa"
+	version 	= "1.0.0">
+
+	<name>Mais Gestor</name>
+
+	<description>
+	</description>
+
+	<author href="http://www.tecnoarte.com.br"
+		email="wagnerjf@gmail.com">
+		tecnoarte.com.br
+	</author>
+
+	
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.1" />
+	</gap:platforms>
+        <gap:plugin name = "org.apache.cordova.splashscreen" />
+
+	<icon src="ta_icon.png" gap:role="default" />
+        
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	
+	<!-- sample preference specification -->
+	<!-- <preference name="autorotate" value="true" readonly="true"/> -->
+        <!--<preference name="SplashScreenDelay" value="5000" /> -->
+	<preference name="AutoHideSplashScreen" value="false" />
+</widget>
